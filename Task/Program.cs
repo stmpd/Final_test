@@ -23,3 +23,10 @@ void PrintArray(string[] array)
         Console.Write($"{array[i]} ");
     }
 }
+
+SortArray(Array, sortArray);
+Console.WriteLine("Введенный массив: ");
+PrintArray(Array);
+Console.WriteLine();
+Console.WriteLine("Отсортированный массив: ");
+PrintArray(sortArray);
